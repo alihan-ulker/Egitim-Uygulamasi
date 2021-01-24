@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnBoKonu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" BİLGİSAYAR ORGANİZASYONU GİRİŞ" />
+
+    <Button
+        android:id="@+id/btnBoKonu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BİLGİSAYARLARIN GELİŞİMİ " />
+
+    <Button
+        android:id="@+id/btnBoKonu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VON-NEUMAN VE HARVARD " />
+
+    <Button
+        android:id="@+id/btnBoKonu4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bilgisayar İşlevinin Üst Düzey Görünümü         ve Ara Bağlantısı " />
+
+    <Button
+        android:id="@+id/btnBoKonu5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CACHE (ÖNBELLEKLER) " />
+
+    <Button
+        android:id="@+id/btnBoKonu6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INTERNAL MEMORY (DAHİLİ BELLEK) " />
+
+    <Button
+        android:id="@+id/btnBoKonu7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" EXTERNAL MEMORY (HARİCİ BELLEK) " />
+
+    <Button
+        android:id="@+id/btnBoKonu8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I/O " />
+
+    <Button
+        android:id="@+id/btnBoKonu9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BİLGİSAYAR MATEMATİĞİ " />
+
+    <Button
+        android:id="@+id/btnBoGenelTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Genel Test" />
+
+
+</LinearLayout>

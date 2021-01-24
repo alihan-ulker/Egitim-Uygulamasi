@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_skorlarım"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Skorlarım" />
+        <item
+            android:id="@+id/nav_cpp_skor"
+            android:icon="@drawable/common_full_open_on_phone"
+            android:title="C++ Yüksek Skorlar" />
+        <item
+            android:id="@+id/nav_bo_skor"
+            android:icon="@drawable/common_full_open_on_phone"
+            android:title="BO Yüksek Skorlar" />
+
+    </group>
+
+    <item android:title="Hesap">
+        <menu>
+
+            <item
+                android:id="@+id/nav_hesap"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Hesap" />
+            <item
+                android:id="@+id/nav_hakkinda"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Hakkinda" />
+        </menu>
+    </item>
+
+</menu>

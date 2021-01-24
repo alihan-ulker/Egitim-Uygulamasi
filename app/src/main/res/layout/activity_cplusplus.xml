@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnPGRS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROGRAMLAMAYA GİRİŞ " />
+
+
+    <Button
+        android:id="@+id/btnFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FOR DÖNGÜSÜ "
+         />
+
+    <Button
+        android:id="@+id/btnDowhile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DO - WHILE DÖNGÜSÜ "
+         />
+
+    <Button
+        android:id="@+id/btnSwitchCase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SWITCH - CASE KOMUTU "
+        />
+
+    <Button
+        android:id="@+id/btnOperator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPERATÖRLER ve OPERANTLAR "
+        />
+
+    <Button
+        android:id="@+id/btnIfelse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IF - ELSE KOMUTU "
+         />
+
+
+    <Button
+        android:id="@+id/btnFonksiyon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FONKSİYONLAR"
+        />
+
+    <Button
+        android:id="@+id/btnDiziler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DİZİLER"
+        />
+
+    <Button
+        android:id="@+id/btnPointer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İŞARETÇİLER (POINTERS) "
+         />
+
+    <Button
+        android:id="@+id/btnGenelTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Genel Test"
+       />
+
+
+</LinearLayout>

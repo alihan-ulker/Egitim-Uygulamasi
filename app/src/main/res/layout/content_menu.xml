@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activitys.Activitys.MenuActivity"
+    tools:showIn="@layout/app_bar_menu">
+
+
+    <Button
+        android:id="@+id/btnCppGiris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++"
+        />
+
+    <Button
+        android:id="@+id/btnPdpGiris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bilgisayar Organizasyonu"
+        />
+
+    <Button
+        android:id="@+id/btnCompiler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Derleyici" />
+
+
+</LinearLayout>
